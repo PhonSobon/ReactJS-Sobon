@@ -10,7 +10,9 @@ function App() {
         <Navbar/>
         <main>
           <Product/>
+          <Feedback/>
         </main>
+        <Footer/>
       </div>
   );
 }

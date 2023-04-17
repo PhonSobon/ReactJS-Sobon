@@ -4,20 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './Components/Navbar';
-import Product from './Components/Product';
-import Feedback from './Components/Feedback';
-import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <main>
-      <Product/>
-      <Feedback/>
-    </main>
-    <Footer/>
+    <App/>
   </React.StrictMode>
 );
 
